@@ -189,7 +189,7 @@ Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuen
 
 Captura de la señal FM usada para medición de ancho de banda.
 
-![Foto de referencia](upmedia/image13.png)
+![Foto de referencia](upmedia/image13.jpg)
 
 Analice y valide los resultados en el dominio de la frecuencia si se modifica:
 
@@ -205,7 +205,7 @@ Mida potencia de la señal transmitida y ancho de banda de diferentes señales g
 
 1. **Señal cuadrada (tipo flotante)**
 
-![Foto de referencia](upmedia/image.png)
+![Foto de referencia](upmedia/image14.jpg)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−39.13 dBm)−(−100 dBm)=**60.87 dB**
