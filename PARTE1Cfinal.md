@@ -133,30 +133,44 @@ Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuen
 
 DATO DE LA FUENTE TIPO COMPLEJO   
 ![Foto de referencia](upmedia/image2.png)
+
 DATO DE LA FUENTE TIPO FLOTANTE 
 ![Foto de referencia](upmedia/image3.png)
+
  **LA FORMA DE ONDA** 
+ 
  FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz    
  ![Foto de referencia](upmedia/image4.png)
+ 
  FORMA DE ONDA DE SEÑAL COSENOIDAL (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
  ![Foto de referencia](upmedia/image5.png)
+ 
  **LA FRECUENCIA Y FASE DE LA SEÑAL** 
+ 
 Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula.    
 ![Foto de referencia](upmedia/image6.png)
+
 Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.    
 ![Foto de referencia](upmedia/image7.png)
+
 Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.    
 ![Foto de referencia](upmedia/image8.png)
+
 Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. 
 ![Foto de referencia](upmedia/image9.png)
+
  **LA AMPLITUD DE LA SEÑAL GENERADA** 
+ 
  Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    
  ![Foto de referencia](upmedia/image10.png)
+ 
  Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. 
  ![Foto de referencia](upmedia/image11.png)
+ 
  NIVEL DE RUIDO DEL MODELO DE CANAL Y ANALICE EL EFECTO EN TIEMPO Y FRECUENCIA 
  Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. 
 ![Foto de referencia](upmedia/image8.png)
+
 **Actividad 3: Transmisión y Medición de Señales con el USRP 2920**
 
 Objetivo
@@ -219,9 +233,10 @@ Potencia señal transmitida:
 ***BW=10.279 kHz***
 
 *2) señal cosenoidal (tipo complejo)*
+![Foto de referencia](upmedia/image16.jpeg)
 ![Foto de referencia](upmedia/image15.jpeg)
 
-![Foto de referencia](upmedia/image16.jpeg)
+
 **SNR:**
 SNR = Pseñal - Pruido = (−39 dBm)−(−100 dBm)= **61dB**
 Potencia señal transmitida:
