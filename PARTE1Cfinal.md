@@ -207,6 +207,8 @@ Mida potencia de la señal transmitida y ancho de banda de diferentes señales g
 
 ![Foto de referencia](upmedia/image13.jpg)
 
+![Foto de referencia](upmedia/image14.jpg)
+
 **SNR:**
 SNR = Pseñal - Pruido = (−39.13 dBm)−(−100 dBm)=**60.87 dB**
 Potencia señal transmitida:
@@ -217,9 +219,9 @@ Potencia señal transmitida:
 ***BW=10.279 kHz***
 
 *2) señal cosenoidal (tipo complejo)*
+![Foto de referencia](upmedia/image15.jpeg)
 
-![Foto de referencia](upmedia/image14.jpg)
-
+![Foto de referencia](upmedia/image16.jpeg)
 **SNR:**
 SNR = Pseñal - Pruido = (−39 dBm)−(−100 dBm)= **61dB**
 Potencia señal transmitida:
@@ -229,8 +231,9 @@ Potencia señal transmitida:
 ***BW=10 kHz***
 
 *3) señal triangular (tipo flotante)*
+![Foto de referencia](upmedia/image17.png)
 
-![Foto de referencia](upmedia/image15.jpeg)
+![Foto de referencia](upmedia/image18.jpeg)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−36.93 dBm)−(−99 dBm)=62.07 dB
@@ -244,7 +247,7 @@ Conecte una antena apropiada a la entrada del analizador de espectros y observe 
 
 Determinar la máxima potencia de transmisión.
 
-![Foto de referencia](upmedia/image16.jpeg)
+![Foto de referencia](upmedia/image19.jpeg)
 
 * Con ayuda de los markers que nos proporciona el analizador de espectros obtuvimos el ancho de banda y la potencia máxima transmitida:
 
@@ -267,13 +270,13 @@ Amplitud 1; offset 0:
 
 Onda cuadrada a 6.4 kHz
 
-![Foto de referencia](upmedia/image17.png)
+
 Onda triangular a 6.4 kHz
 
-![Foto de referencia](upmedia/image18.jpeg)
+
 Onda triangular a 9.5 kHz
 
-![Foto de referencia](upmedia/image19.jpeg)
+
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
    * Usar las mediciones de potencia y piso de ruido para calcular la SNR de algunas de las señales generadas.
