@@ -129,18 +129,34 @@ Modifique el nivel de ruido del modelo de canal y analice el efecto en tiempo y 
 
 Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien cada una de las comparaciones realizadas.
 
-| **EL TIPO DE DATO DE LA FUENTE (COMPLEJA O FLOTANTE)** |
-| --- |
-| DATO DE LA FUENTE TIPO COMPLEJO    DATO DE LA FUENTE TIPO FLOTANTE |
-| **LA FORMA DE ONDA** |
-| FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz    FORMA DE ONDA DE SEÑAL COSENOIDAL (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz |
-| **LA FRECUENCIA Y FASE DE LA SEÑAL** |
-| Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula.    Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.    Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.    Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. |
-| **LA AMPLITUD DE LA SEÑAL GENERADA** |
-| Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. |
-| NIVEL DE RUIDO DEL MODELO DE CANAL Y ANALICE EL EFECTO EN TIEMPO Y FRECUENCIA |
-| Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. |
+ **EL TIPO DE DATO DE LA FUENTE (COMPLEJA O FLOTANTE)** 
 
+DATO DE LA FUENTE TIPO COMPLEJO   
+![Foto de referencia](upmedia/image2.jpeg)
+DATO DE LA FUENTE TIPO FLOTANTE 
+![Foto de referencia](upmedia/image3.jpeg)
+ **LA FORMA DE ONDA** 
+ FORMA DE ONDA DE SEÑAL TRIANGULAR (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz    
+ ![Foto de referencia](upmedia/image4.jpeg)
+ FORMA DE ONDA DE SEÑAL COSENOIDAL (Amplitud: 1V; Frecuencia: 2.5kHz; sample rate ajustado a 20kHz 
+ ![Foto de referencia](upmedia/image5.jpeg)
+ **LA FRECUENCIA Y FASE DE LA SEÑAL** 
+Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, sin offset, fase nula.    
+![Foto de referencia](upmedia/image6.jpeg)
+Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, fase nula.    
+![Foto de referencia](upmedia/image7.jpeg)
+Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, sin offset, de 1 radian.    
+![Foto de referencia](upmedia/image8.jpeg)
+Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset de 1V, fase de 2 radianes. 
+![Foto de referencia](upmedia/image9.jpeg)
+ **LA AMPLITUD DE LA SEÑAL GENERADA** 
+ Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 0.1V, offset nulo, fase nula.    
+ ![Foto de referencia](upmedia/image10.jpeg)
+ Señal cosenoidal compleja con frecuencia de 1kHz; Amplitud de 1V, offset nulo, fase nula. 
+ ![Foto de referencia](upmedia/image11.jpeg)
+ NIVEL DE RUIDO DEL MODELO DE CANAL Y ANALICE EL EFECTO EN TIEMPO Y FRECUENCIA 
+ Señal cosenoidal compleja con frecuencia de 0.5kHz; Amplitud de 1V, offset nulo, fase nula, ruido de voltaje de 0.68v. 
+![Foto de referencia](upmedia/image12.jpeg)
 **Actividad 3: Transmisión y Medición de Señales con el USRP 2920**
 
 Objetivo
@@ -173,7 +189,7 @@ Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuen
 
 Captura de la señal FM usada para medición de ancho de banda.
 
-![QAM Modulator](data:image/png;base64...)
+![Foto de referencia](upmedia/image13.jpeg)
 
 Analice y valide los resultados en el dominio de la frecuencia si se modifica:
 
@@ -189,7 +205,7 @@ Mida potencia de la señal transmitida y ancho de banda de diferentes señales g
 
 1. **Señal cuadrada (tipo flotante)**
 
-![](data:image/jpeg;base64...)![](data:image/jpeg;base64...)
+![Foto de referencia](upmedia/image14.jpeg)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−39.13 dBm)−(−100 dBm)=**60.87 dB**
@@ -202,7 +218,7 @@ Potencia señal transmitida:
 
 *2) señal cosenoidal (tipo complejo)*
 
-![](data:image/jpeg;base64...)![](data:image/jpeg;base64...)
+![Foto de referencia](upmedia/image15.jpeg)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−39 dBm)−(−100 dBm)= **61dB**
@@ -214,7 +230,7 @@ Potencia señal transmitida:
 
 *3) señal triangular (tipo flotante)*
 
-![](data:image/png;base64...)![](data:image/jpeg;base64...)
+![Foto de referencia](upmedia/image16.jpeg)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−36.93 dBm)−(−99 dBm)=62.07 dB
@@ -228,7 +244,7 @@ Conecte una antena apropiada a la entrada del analizador de espectros y observe 
 
 Determinar la máxima potencia de transmisión.
 
-![](data:image/jpeg;base64...)
+![Foto de referencia](upmedia/image17.jpeg)
 
 * Con ayuda de los markers que nos proporciona el analizador de espectros obtuvimos el ancho de banda y la potencia máxima transmitida:
 
@@ -251,13 +267,13 @@ Amplitud 1; offset 0:
 
 Onda cuadrada a 6.4 kHz
 
-![](data:image/png;base64...)![](data:image/png;base64...)
+![Foto de referencia](upmedia/image18.jpeg)
 Onda triangular a 6.4 kHz
 
-![](data:image/png;base64...)![](data:image/png;base64...)
+![Foto de referencia](upmedia/image19.jpeg)
 Onda triangular a 9.5 kHz
 
-![](data:image/png;base64...)![](data:image/png;base64...)
+![Foto de referencia](upmedia/image20.jpeg)
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
    * Usar las mediciones de potencia y piso de ruido para calcular la SNR de algunas de las señales generadas.
@@ -269,10 +285,10 @@ Onda triangular a 9.5 kHz
 
 Analizar los resultados obtenidos y sacar conclusiones sobre el comportamiento de las señales en diferentes condiciones para elaborar el informe.
 
-| **Comparación de Resultados** |
-| --- |
-| Los resultados obtenidos en las simulaciones y las transmisiones reales muestran diferencias significativas debido a la presencia de ruido y las limitaciones de los equipos de medición. En la simulación, las señales se generan en un entorno ideal sin interferencias externas, lo que permite observar formas de onda limpias y espectros bien definidos. Sin embargo, en las mediciones reales con el USRP 2920, se observa una degradación de la señal debido a la presencia de ruido, interferencias electromagnéticas y limitaciones en la ganancia y sensibilidad de los dispositivos.  En cuanto a las diferencias entre las mediciones realizadas con el osciloscopio y el analizador de espectros, se destaca que el osciloscopio permite visualizar la señal en el dominio del tiempo, facilitando el análisis de amplitud, fase (solo si se tiene una señal de referencia) y forma de onda. En cambio, el analizador de espectros proporciona información detallada sobre el contenido frecuencial de la señal, permitiendo la medición de parámetros clave como el ancho de banda, la potencia espectral y la relación señal a ruido (SNR), información que valida el concepto de series de Fourier y exponencial compleja. |
-| **Reflexión sobre la SNR** |
-| La relación señal a ruido (SNR) es un parámetro fundamental en las comunicaciones inalámbricas, ya que determina la calidad y fiabilidad de la transmisión de datos. Una SNR elevada indica que la señal es claramente distinguible del ruido, lo que permite una mejor decodificación y menor tasa de errores en la recepción de información.  El piso de ruido tiene un impacto directo en la capacidad de detectar señales débiles. Un piso de ruido elevado reduce la sensibilidad del sistema, dificultando la recepción de señales de baja potencia. En nuestras mediciones, se observó que la SNR variaba según el tipo de señal y el entorno de medición, con valores máximos de aproximadamente 62 dB en señales triangulares y mínimos de 34.76 dB en transmisiones FM, donde el ruido de fondo es más notable. |
-| **Conclusiones Finales** |
-| A partir de los resultados obtenidos, se concluye que la precisión de las mediciones depende en gran medida del equipo utilizado y de las condiciones del entorno. Las simulaciones permiten un análisis preliminar de las señales en condiciones ideales, pero las mediciones en tiempo real reflejan los desafíos prácticos que pueden afectar la transmisión y recepción de señales, así como los efectos del canal en la degradación de la señal.  Las principales limitaciones de los equipos utilizados incluyen la sensibilidad del analizador de espectros y la resolución del osciloscopio, que pueden influir en la exactitud de las mediciones. Para mejorar la calidad de las mediciones, se podría considerar el uso de preamplificadores para reducir el impacto del piso de ruido, calculados en base a las especificaciones técnicas de los datasheets de los equipos, otra forma de mejorar las mediciones sería optimizar la calibración de los dispositivos de medición. Además, realizar pruebas en entornos controlados con menor interferencia ayudaría a obtener mediciones más precisas y representativas de las condiciones reales de operación.  A nivel de instrumentación se puede optimizar los rangos de frecuencia central y rango de espectro analizado con el fin de enfocarse en las componentes de mayor potencia que suelen ser las más significativas a la hora de analizar el espectro en frecuencia de una señal, la interpretación de los conceptos teóricos como exponencial compleja y series de Fourier se hacen vitales para validar lo que se está visualizando en el analizador de espectros. |
+ **Comparación de Resultados** 
+
+Los resultados obtenidos en las simulaciones y las transmisiones reales muestran diferencias significativas debido a la presencia de ruido y las limitaciones de los equipos de medición. En la simulación, las señales se generan en un entorno ideal sin interferencias externas, lo que permite observar formas de onda limpias y espectros bien definidos. Sin embargo, en las mediciones reales con el USRP 2920, se observa una degradación de la señal debido a la presencia de ruido, interferencias electromagnéticas y limitaciones en la ganancia y sensibilidad de los dispositivos.  En cuanto a las diferencias entre las mediciones realizadas con el osciloscopio y el analizador de espectros, se destaca que el osciloscopio permite visualizar la señal en el dominio del tiempo, facilitando el análisis de amplitud, fase (solo si se tiene una señal de referencia) y forma de onda. En cambio, el analizador de espectros proporciona información detallada sobre el contenido frecuencial de la señal, permitiendo la medición de parámetros clave como el ancho de banda, la potencia espectral y la relación señal a ruido (SNR), información que valida el concepto de series de Fourier y exponencial compleja. 
+**Reflexión sobre la SNR** 
+ La relación señal a ruido (SNR) es un parámetro fundamental en las comunicaciones inalámbricas, ya que determina la calidad y fiabilidad de la transmisión de datos. Una SNR elevada indica que la señal es claramente distinguible del ruido, lo que permite una mejor decodificación y menor tasa de errores en la recepción de información.  El piso de ruido tiene un impacto directo en la capacidad de detectar señales débiles. Un piso de ruido elevado reduce la sensibilidad del sistema, dificultando la recepción de señales de baja potencia. En nuestras mediciones, se observó que la SNR variaba según el tipo de señal y el entorno de medición, con valores máximos de aproximadamente 62 dB en señales triangulares y mínimos de 34.76 dB en transmisiones FM, donde el ruido de fondo es más notable. 
+ **Conclusiones Finales** 
+ A partir de los resultados obtenidos, se concluye que la precisión de las mediciones depende en gran medida del equipo utilizado y de las condiciones del entorno. Las simulaciones permiten un análisis preliminar de las señales en condiciones ideales, pero las mediciones en tiempo real reflejan los desafíos prácticos que pueden afectar la transmisión y recepción de señales, así como los efectos del canal en la degradación de la señal.  Las principales limitaciones de los equipos utilizados incluyen la sensibilidad del analizador de espectros y la resolución del osciloscopio, que pueden influir en la exactitud de las mediciones. Para mejorar la calidad de las mediciones, se podría considerar el uso de preamplificadores para reducir el impacto del piso de ruido, calculados en base a las especificaciones técnicas de los datasheets de los equipos, otra forma de mejorar las mediciones sería optimizar la calibración de los dispositivos de medición. Además, realizar pruebas en entornos controlados con menor interferencia ayudaría a obtener mediciones más precisas y representativas de las condiciones reales de operación.  A nivel de instrumentación se puede optimizar los rangos de frecuencia central y rango de espectro analizado con el fin de enfocarse en las componentes de mayor potencia que suelen ser las más significativas a la hora de analizar el espectro en frecuencia de una señal, la interpretación de los conceptos teóricos como exponencial compleja y series de Fourier se hacen vitales para validar lo que se está visualizando en el analizador de espectros. 
