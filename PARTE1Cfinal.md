@@ -269,14 +269,16 @@ Determinar la máxima potencia de transmisión.
 Amplitud 1; offset 0:
 
 Onda cuadrada a 6.4 kHz
-
+![Foto de referencia](upmedia/image20.png)
+![Foto de referencia](upmedia/image21.png)
 
 Onda triangular a 6.4 kHz
-
+![Foto de referencia](upmedia/image22.png)
+![Foto de referencia](upmedia/image23.png)
 
 Onda triangular a 9.5 kHz
-
-
+![Foto de referencia](upmedia/image24.png)
+![Foto de referencia](upmedia/image25.png)
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
    * Usar las mediciones de potencia y piso de ruido para calcular la SNR de algunas de las señales generadas.
