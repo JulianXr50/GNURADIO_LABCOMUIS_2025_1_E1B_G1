@@ -189,7 +189,7 @@ Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuen
 
 Captura de la señal FM usada para medición de ancho de banda.
 
-![Foto de referencia](upmedia/image13.jpeg)
+![Foto de referencia](upmedia/image13.png)
 
 Analice y valide los resultados en el dominio de la frecuencia si se modifica:
 
@@ -205,7 +205,7 @@ Mida potencia de la señal transmitida y ancho de banda de diferentes señales g
 
 1. **Señal cuadrada (tipo flotante)**
 
-![Foto de referencia](upmedia/image14.jpeg)
+![Foto de referencia](upmedia/image.png)
 
 **SNR:**
 SNR = Pseñal - Pruido = (−39.13 dBm)−(−100 dBm)=**60.87 dB**
@@ -244,7 +244,7 @@ Conecte una antena apropiada a la entrada del analizador de espectros y observe 
 
 Determinar la máxima potencia de transmisión.
 
-![Foto de referencia](upmedia/image17.jpeg)
+![Foto de referencia](upmedia/image17.png)
 
 * Con ayuda de los markers que nos proporciona el analizador de espectros obtuvimos el ancho de banda y la potencia máxima transmitida:
 
@@ -273,7 +273,7 @@ Onda triangular a 6.4 kHz
 ![Foto de referencia](upmedia/image19.jpeg)
 Onda triangular a 9.5 kHz
 
-![Foto de referencia](upmedia/image20.jpeg)
+![Foto de referencia](upmedia/image20.png)
 
 1. **Cálculo de la Relación Señal a Ruido (SNR)**:
    * Usar las mediciones de potencia y piso de ruido para calcular la SNR de algunas de las señales generadas.
